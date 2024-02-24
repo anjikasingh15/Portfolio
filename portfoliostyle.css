@@ -1,0 +1,126 @@
+.bgimage {
+    height:100vh;
+    background-image: url(bgimg.jpg);
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 247);
+}
+.navbar-brand{color: white!important;}
+.nav-link{
+    color: white!important;
+}
+.nav-link:hover{color:rgb(0, 255, 247)!important;}
+.imageAboutPage {
+    max-width: 70%;width: 70%;
+    height: auto;
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.text-center{
+    background-color: #ffb88c;
+}
+.card-body{
+    background-color: greenyellow;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #ffb88c;
+}
+.servicesText:hover {
+    border: 1px solid #ffb88c;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+.contact form {
+	width: 66%;
+	margin: 0px auto;
+}
+.contact input,
+textarea {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #a1a1a1;
+}
+.contact textarea {
+	height: 80px;
+}
+.contact button {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	background: rgb(254, 117, 117);
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+.contact h3 {
+	font-size: 26px;
+	text-align: center;
+	margin-top: 60px;
+	color:rgb(254, 117, 117);
+}
+.contact h4 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+.contact p {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover {
+    color: rgb(254, 117, 117);
+}
+.fab {
+    color: black;
+}
+/* footer styling */
+#footer {
+    background-color: #ffb88c;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
